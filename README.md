@@ -11,8 +11,7 @@ pip install openreview-py
 Also see https://docs.openreview.net/getting-started/using-the-api/installing-and-instantiating-the-python-client
 
 
-Next, try running the example script below. First you'll need to change the `venue1` string in the code to match your own. 
-It will only work with venues where you have Program Chair role.
+Next, try running the example script below. It will only work with venues where you have Program Chair role.
 
 ```
 python get_review_capacity.py
