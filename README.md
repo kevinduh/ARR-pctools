@@ -25,13 +25,13 @@ These scripts are provided just for reference. They will only work with venues w
 
 * `get_review_capacity.py`: Check max load statistics by Reviewers and Area Chairs.
 * `get_review_progress.py`: Report on the review progress for your cycle and write out papers that require urgent attention to a TSV file
-
+* `get_sac_recommendation.py`: Download SAC recommendations from the commitment site. Note the access is different from the ARR review site. 
 
 
 
 ## Notes
 
-* As of the time of writing ARR using OpenReview API version 1. Other sites by default uses version 2. The `get_review_progress.py` example assumes v1.
+* As of the time of writing ARR using OpenReview API version 1. Other sites by default uses version 2. The `get_review_progress.py` and `get_review_progress.py` examples assumes v1, whereas `get_sac_recommendation.py` example assumes v2. 
 
 * OpenReview API documentation: https://docs.openreview.net/overview/readme 
 
